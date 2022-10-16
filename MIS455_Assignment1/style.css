@@ -1,0 +1,117 @@
+.main_container {
+    padding: 4%;
+    margin-bottom: 5%;
+    font-family: "open sans";
+    font-size: 15px;
+}
+
+.main_container h1 {
+    font-family: monospace;
+    font-size: 40px;
+
+}
+
+.main_container h1 a:hover {
+    color: red;
+}
+
+#sansiro {
+    width: 45%;
+    box-shadow: 20px 20px 20px darkgray;
+    border-radius: 15px;
+}
+
+#carlo {
+    width: 45%;
+    box-shadow: 20px 20px 20px darkgray;
+    border-radius: 15px;
+
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.container1 section {
+    padding: 3% 10% 3% 15%;
+    width: 40%;
+
+}
+
+.container1 section h2 {
+    text-shadow: 20px 5px 15px darkgray;
+    padding: 2% 0% 0% 2%;
+    font-family: monospace;
+    font-size: 35px;
+
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.container2 section {
+    padding: 3% 15% 3% 10%;
+    width: 40%;
+}
+
+.container2 section h2 {
+    text-shadow: 20px 5px 15px darkgray;
+    padding: 2% 0% 0% 2%;
+    font-family: monospace;
+    font-size: 35px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container3 section {
+    border: 2px solid lightslategray;
+    border-radius: 8px;
+    margin: 50px;
+    padding: 1% 10% 1% 2%;
+    box-shadow: 20px 20px 20px darkgray;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#ft {
+    padding: 5% 0% 0% 2%;
+    font-family: monospace;
+    font-size: 35px;
+    padding-left: 7%;
+
+}
+
+
+.fa {
+    padding: 5px;
+    font-size: 15px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
